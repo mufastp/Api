@@ -28,66 +28,60 @@ class _Page1State extends State<Page1> {
     return Consumer<DataProvider>(builder: (context, getdata, child) {
       // getdata.fetchQuestion();
       return Scaffold(
-          backgroundColor: Colors.white,
-          appBar: AppBar(
-            elevation: 0,
-            backgroundColor: Colors.black,
-          ),
-          body: Container(
-            width: double.infinity,
-            height: 400,
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(15),
-                      child: CircleAvatar(
-                        backgroundImage: NetworkImage(images[buttonindex]),
-                        radius: 40,
-                      ),
-                    ),
-                    Text(
-                      getdata.Datas[buttonindex].name,
-                      style:
-                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                    )
-                  ],
-                ),
-                Text(
-                  'USERNAME : ${getdata.Datas[buttonindex].username}',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                ),
-                Text(
-                  'E MAIL : ${getdata.Datas[buttonindex].email}',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                ),
-                Text(
-                  'NUMBER : ${getdata.Datas[buttonindex].phone}',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                ),
-                Text(
-                  'ADDRESS',
-                  style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.red),
-                ),
-                Text(
-                  'CITY : ${getdata.Datas[buttonindex].address.city}',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                ),
-                Text(
-                  'STREET : ${getdata.Datas[buttonindex].address.street}',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                ),
-                Text(
-                  'SUITE : ${getdata.Datas[buttonindex].address.suite}',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                ),
-              ],
+       backgroundColor: Color.fromARGB(255, 13, 49, 55),
+        appBar: AppBar(
+          title: Text('PROFILE '),
+          elevation: 0,
+          backgroundColor: Colors.black26,
+        ),
+        body: Column(
+          children: [
+            Container(
+              width: 400,
+              height: 200,
+             decoration: BoxDecoration(
+              color: Colors.black26,
+              borderRadius: BorderRadius.only(bottomLeft: Radius.elliptical(50, 50),bottomRight: Radius.elliptical(50, 50))),
+              child: Column(
+                children: [
+                  CircleAvatar(backgroundImage: NetworkImage(images[buttonindex]),
+                        radius: 70,
+                         ),
+                          Text(
+                    getdata.Datas[buttonindex].name,
+                    style:
+                        TextStyle(fontSize: 30, fontWeight: FontWeight.w400,color: Colors.white),
+                  )
+                ],
+              ),
             ),
-          ));
+            SizedBox(height: 20,),
+
+           Text('E-Mail', style:
+                        TextStyle(fontSize: 30, fontWeight: FontWeight.w400,color: Color.fromARGB(255, 171, 168, 168)),),
+                        Text(getdata.Datas[buttonindex].email,style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400,color: Colors.white),),
+                        Divider(color: Color.fromARGB(255, 183, 181, 181),indent: 20,endIndent: 20,thickness: 1.5,),
+                         Text('USERNAME', style:
+                        TextStyle(fontSize: 30, fontWeight: FontWeight.w400,color: Color.fromARGB(255, 171, 168, 168)),),
+                         Text(getdata.Datas[buttonindex].username,style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400,color: Colors.white),),
+                        Divider(color: Color.fromARGB(255, 183, 181, 181),indent: 20,endIndent: 20,thickness: 1.5,),
+                         Text('NUMBER', style:
+                        TextStyle(fontSize: 30, fontWeight: FontWeight.w400,color: Color.fromARGB(255, 171, 168, 168)),),
+                         Text(getdata.Datas[buttonindex].phone,style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400,color: Colors.white),),
+                        Divider(color: Color.fromARGB(255, 183, 181, 181),indent: 20,endIndent: 20,thickness: 1.5,),
+                         Text('COMPANY NAME', style:
+                        TextStyle(fontSize: 30, fontWeight: FontWeight.w400,color: Color.fromARGB(255, 171, 168, 168)),),
+                         Text(getdata.Datas[buttonindex].company.name,style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400,color: Colors.white),),
+                        Divider(color: Color.fromARGB(255, 183, 181, 181),indent: 20,endIndent: 20,thickness: 1.5,),
+                          Text('CITY', style:
+                        TextStyle(fontSize: 30, fontWeight: FontWeight.w400,color: Color.fromARGB(255, 171, 168, 168)),),
+                         Text(getdata.Datas[buttonindex].address.city,style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400,color: Colors.white),),
+                        Divider(color: Color.fromARGB(255, 183, 181, 181),indent: 20,endIndent: 20,thickness: 1.5,),
+          ],
+        ),
+        
+        
+      );
     });
   }
 }

@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
       getdata.fetchQuestion();
       return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.black,
+          backgroundColor: Color.fromARGB(255, 13, 49, 55),
           title: Row(
             children: [
               Text('PROFILES'),
@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
-        backgroundColor: Colors.black,
+        backgroundColor:Color.fromARGB(255, 13, 49, 55),
         body: GridView.builder(
             gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                 maxCrossAxisExtent: 200,

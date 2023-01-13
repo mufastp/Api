@@ -1,12 +1,12 @@
- List<String> images = [
-    'https://igimages.gumlet.io/malayalam/gallery/actor/fahadfazil/poster.jpg?w=160&dpr=2.6',
-    'https://igimages.gumlet.io/malayalam/gallery/actor/bijumenon/bijumenon4518.jpg?w=160&dpr=2.6',
-    'https://www.filmibeat.com/ph-big/2011/10/venicile-vyaapari_131978304422.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDqL68Smx6rlSFo2U4eq8gMapLGFewhHAJIg&usqp=CAU',
-    'http://1.bp.blogspot.com/-EBuCFsjEJ1s/UptwXgrk-pI/AAAAAAAABrI/-P72leFXXdY/s1600/jagadish-102.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYUIdZSX8DNDIpo-xCjK1C2KWSdAhhOP6lJEGfWN-PAIXsG4fwS21r8CEvPuP-nMhBAw&usqp=CAU',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFdwz84-P1j5IseFCScXcSozpASap8wUIa7A&usqp=CAU',
-    'https://www.deccanherald.com/sites/dh/files/article_images/2019/10/18/shane%20nigam-1571372915.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrhr5mtfPIKCK5zvz-pGfRRjXiULqYvha4oQ&usqp=CAU',
-    'https://www.mrdustbin.com/en/wp-content/uploads/2021/06/jayasurya-1005x1024.jpg',
-  ];
+List<String> images = [
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1LCHQsJ2VPD_wWpyCER0LbDz751ZcTlTzQ&usqp=CAU',
+  'https://www.pngitem.com/pimgs/m/54-548436_businessman-vector-characters-png-download-cartoon-business-man.png',
+  'https://www.pngkey.com/png/detail/416-4163321_photo-businessman-sitting-on-chair-vector-png.png',
+  'https://images.cdn2.stockunlimited.net/preview1300/serious-businessman_1959472.jpg',
+  'https://i.pinimg.com/736x/ba/d7/86/bad786dfe4f227555be6fa2484b0b9a3.jpg',
+  'https://www.animaker.com/static_2.0/img/animakervoice/Portuguese.webp',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuu0KXRkg4VpW-L9scTCWuV3rTK13k_npNXm2vTWzCfWFa-SHBaut7TVYpcvxgV5PUfTI&usqp=CAU',
+  'https://images.megapixl.com/4799/47992332.jpg',
+  'https://thumbs.dreamstime.com/z/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992420.jpg',
+  'https://st.depositphotos.com/3246207/4385/i/600/depositphotos_43854947-stock-photo-cartoon-businessman-character.jpg',
+];
